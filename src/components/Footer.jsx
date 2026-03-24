@@ -10,6 +10,7 @@ const Footer = () => {
         <div className="footer-grid">
           <div className="footer-brand">
             <Link to="/" className="navbar-logo">
+              <img src="/logo.png" alt="Rise Next Logo" className="logo-image" />
               <span className="logo-text">RISE <span className="text-gradient">NEXT</span></span>
             </Link>
             <p className="footer-desc mt-4 text-muted">

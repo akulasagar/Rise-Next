@@ -18,6 +18,18 @@
   align-items: center;
 }
 
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.logo-image {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
 .logo-text {
   font-family: var(--font-display);
   font-size: 1.5rem;
@@ -45,7 +57,8 @@
   position: relative;
 }
 
-.nav-link:hover, .nav-link.active {
+.nav-link:hover,
+.nav-link.active {
   color: var(--text-main);
 }
 
@@ -118,6 +131,7 @@
   .desktop-nav {
     display: none;
   }
+
   .mobile-toggle {
     display: block;
   }

@@ -33,6 +33,7 @@ const Navbar = () => {
     <header className={`navbar-wrapper ${scrolled ? 'glass-nav' : ''}`}>
       <div className="container navbar-container">
         <Link to="/" className="navbar-logo">
+          <img src="/logo.png" alt="Rise Next Logo" className="logo-image" />
           <span className="logo-text">RISE <span className="text-gradient">NEXT</span></span>
         </Link>
 
